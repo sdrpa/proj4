@@ -1,0 +1,7 @@
+
+module PROJ4 [system] {
+    header "./proj-4.9.2/src/proj_config.h"
+    header "./proj-4.9.2/src/proj_api.h"
+    link "proj"
+    export *
+}
